@@ -1,0 +1,63 @@
+.img1{
+    height: 60px;
+    width: 60px;
+}
+li {
+    display: flex;
+    margin: 15px;
+}
+.font{
+    font-family: 'Times New Roman', serif;
+    color: rgb(34, 94, 178);
+    padding-top: 10px;
+   padding-left: 10px;
+
+
+} 
+.font1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: brown;
+    padding-top: 10px;
+   padding-left: 10px;
+}
+.raj{
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 40px;
+    margin: 20px;
+
+}
+.nav-item :hover{
+       background-color: hotpink;
+}
+.main-div {
+    display: flex;
+}
+@media only screen and (max-width: 700px) {
+    .main-div {
+        display: block
+    }
+}
+.search-button {
+    margin-left: auto;
+  }
+.background-img{
+    background-image: url('img file/download.jpeg');
+    font-family: 'Times New Roman', serif;
+    color: firebrick;
+
+}
+.collage-img{
+    border-radius: 40px;
+}
+.col-sm-8 {
+    font-family: 'Times New Roman', serif;
+}
+.col-sm-4{
+    font-family: 'Times New Roman', Times, serif;
+}
+.form-html{
+    background-color: aqua;
+    padding: 30px;
+    font-family: 'Times New Roman', serif;
+}
